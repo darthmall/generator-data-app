@@ -1,0 +1,25 @@
+{
+  "name": "generator-data-app",
+  "version": "1.0.0",
+  "description": "Generate a data webapp project",
+  "homepage": "",
+  "author": {
+    "name": "W. Evan Sheehan",
+    "email": "wallace.sheehan@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.22.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "repository": "darthmall/generator-webapp",
+  "license": "MIT"
+}

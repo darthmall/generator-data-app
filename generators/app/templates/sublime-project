@@ -1,0 +1,14 @@
+{
+  "folders": [{
+    "path": "<%= path %>/src/html"
+  },{
+    "path": "<%= path %>/src/less"
+  },{
+    "path": "<%= path %>/src/js"
+  },{
+    "path": "<%= path %>",
+    "name": "project files",
+    "folder_exclude_patterns": ["node_modules", "src", "build"],
+    "file_exclude_patterns": ["*.log", "*.zip", "*.sublime-*", ".editorconfig", ".eslintrc", ".git*"]
+  }]
+}
